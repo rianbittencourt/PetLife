@@ -4,7 +4,10 @@ import { Heart } from "lucide-react";
 export default function Hero() {
   return (
     <section id="home" className="relative pt-20 lg:pt-24">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1587764379873-97837921fd44')] bg-cover bg-center">
+      <div
+        className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1587764379873-97837921fd44')] bg-cover "
+        style={{ backgroundPosition: "left 20%" }}
+      >
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
 
